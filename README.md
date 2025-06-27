@@ -1,5 +1,7 @@
 # Slang (Shader) Mode for Emacs
 
+This is a major mode for Emacs for the Slang Shading Language
+
 ## Features
 
 - **Syntax Highlighting**:
@@ -19,7 +21,7 @@
 ### Vanilla Emacs
 
 1. Download or clone the `slang-mode.el` file
-2. Place it in a directory in your Emacs load path
+2. Place it in a directory in Emacs load path
 3. Add to your `.emacs` or `init.el`:
 
 ```elisp
@@ -30,7 +32,7 @@
 
 ```elisp
 (use-package slang-mode
-  :straight (:host github :repo "your-username/slang-mode")
+  :straight (:host github :repo "k1ngst0m/slang-mode")
   :mode (("\\.slang\\'" . slang-mode)
          ("\\.sl\\'" . slang-mode)
          ("\\.slangh\\'" . slang-mode)))
@@ -41,7 +43,7 @@
 Add to your `packages.el`:
 ```elisp
 (package! slang-mode
-  :recipe (:host github :repo "your-username/slang-mode"))
+  :recipe (:host github :repo "k1ngst0m/slang-mode"))
 ```
 
 Add to your `config.el`:
@@ -61,7 +63,7 @@ Add to your `dotspacemacs-additional-packages`:
 ```elisp
 (setq-default dotspacemacs-additional-packages
               '((slang-mode :location (recipe :fetcher github
-                                              :repo "your-username/slang-mode"))))
+                                              :repo "k1ngst0m/slang-mode"))))
 ```
 
 ## Usage
