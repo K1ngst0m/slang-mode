@@ -136,7 +136,8 @@ Available customizations:
 
 ## Requirements
 
-- Emacs 24.3 or later
+- `slang-mode` requires **Emacs 24.3 or later**
+- `slang-lsp` (LSP integration) requires **Emacs 26.1 or later** and `eglot` (version 1.4+ or Emacs 29+)
 
 ## License
 
