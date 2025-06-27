@@ -2,7 +2,7 @@
 
 ## Features
 
-- **Comprehensive Syntax Highlighting**: Full coverage of Slang language constructs including:
+- **Syntax Highlighting**:
   - Core language keywords (`interface`, `struct`, `enum`, `module`, `import`, etc.)
   - Built-in types (scalar, vector, matrix types like `float3`, `int4x4`)
   - Texture and buffer types (`Texture2D`, `RWBuffer`, `StructuredBuffer`, etc.)
